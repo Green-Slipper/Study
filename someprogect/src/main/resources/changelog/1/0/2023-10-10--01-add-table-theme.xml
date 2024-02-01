@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   logicalFilePath="path-independent"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="a.budaeva" id="2023-10-10--01-add-table-theme.001">
+        <createTable schemaName="public" tableName="theme">
+            <column name="id" autoIncrement="true" type="BIGINT">
+                <constraints primaryKey="true" primaryKeyName="theme_id"/>
+            </column>
+            <column name="name" type="VARCHAR(50)"/>
+            <column name="author_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet author="a.budaeva" id="2023-10-10--01-add-table-theme.002">
+        <addForeignKeyConstraint baseTableSchemaName="public"
+                                 baseTableName="theme"
+                                 baseColumnNames="author_id"
+                                 referencedTableSchemaName="public"
+                                 referencedTableName="user"
+                                 referencedColumnNames="id"
+                                 constraintName="fk_theme_user"
+                                 deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="CASCADE"
+                                 onUpdate="NO ACTION"/>
+    </changeSet>
+
+</databaseChangeLog>

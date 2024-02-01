@@ -1,0 +1,40 @@
+2024-01-19 12:39:08 - 
+    select
+        card0_.id as id1_0_0_,
+        card0_.answer as answer2_0_0_,
+        card0_.question as question3_0_0_,
+        card0_.theme_id as theme_id4_0_0_ 
+    from
+        public.card card0_ 
+    where
+        card0_.id=?
+2024-01-19 13:01:08 - 
+    select
+        card0_.id as id1_0_0_,
+        card0_.answer as answer2_0_0_,
+        card0_.question as question3_0_0_,
+        card0_.theme_id as theme_id4_0_0_ 
+    from
+        public.card card0_ 
+    where
+        card0_.id=?
+2024-01-19 13:01:18 - 
+    select
+        card0_.id as id1_0_0_,
+        card0_.answer as answer2_0_0_,
+        card0_.question as question3_0_0_,
+        card0_.theme_id as theme_id4_0_0_ 
+    from
+        public.card card0_ 
+    where
+        card0_.id=?
+2024-01-19 13:12:26 - 
+    select
+        card0_.id as id1_0_0_,
+        card0_.answer as answer2_0_0_,
+        card0_.question as question3_0_0_,
+        card0_.theme_id as theme_id4_0_0_ 
+    from
+        public.card card0_ 
+    where
+        card0_.id=?

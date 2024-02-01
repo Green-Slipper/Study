@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   logicalFilePath="path-independent"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="a.budaeva" id="2023-10-10--01-add-table-card.001">
+        <createTable schemaName="public" tableName="card">
+            <column name="id" autoIncrement="true" type="BIGINT">
+                <constraints primaryKey="true" primaryKeyName="card_id"/>
+            </column>
+            <column name="question" type="VARCHAR(255)"/>
+            <column name="answer" type="VARCHAR(255)"/>
+            <column name="theme_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet author="a.budaeva" id="2023-10-10--01-add-table-card.002">
+        <addForeignKeyConstraint baseTableSchemaName="public"
+                                 baseTableName="card"
+                                 baseColumnNames="theme_id"
+                                 referencedTableSchemaName="public"
+                                 referencedTableName="theme"
+                                 referencedColumnNames="id"
+                                 constraintName="fk_card_theme"
+                                 deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="CASCADE"
+                                 onUpdate="NO ACTION"/>
+    </changeSet>
+
+</databaseChangeLog>

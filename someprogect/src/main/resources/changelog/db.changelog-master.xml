@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd" logicalFilePath="path-independent">
+
+  <include file="1/0/2023-10-10--01-add-table-user.xml" relativeToChangelogFile="true"/>
+  <include file="1/0/2023-10-10--01-add-table-theme.xml" relativeToChangelogFile="true"/>
+  <include file="1/0/2023-10-10--01-add-table-card.xml" relativeToChangelogFile="true"/>
+  <include file="1/0/2023-10-10--01-add-table-history.xml" relativeToChangelogFile="true"/>
+  <include file="1/0/2023-10-12--01-add-some-card-user-theme.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

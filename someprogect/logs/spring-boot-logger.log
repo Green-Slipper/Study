@@ -1,0 +1,4 @@
+2024-01-30 13:46:40,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on COMPABUDAEVA with PID 19720 (C:\Users\a.budaeva\полезности\jup\someprogect\build\classes\java\main started by a.budaeva in C:\Users\a.budaeva\полезности\jup\someprogect)
+2024-01-30 13:46:40,012 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2024-01-30 13:46:40,012 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-30 13:46:42,960 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 3.277 seconds (JVM running for 3.704)

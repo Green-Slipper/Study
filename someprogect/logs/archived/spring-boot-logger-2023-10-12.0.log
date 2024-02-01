@@ -1,0 +1,117 @@
+2023-10-12 15:32:47,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 25156 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 15:32:47,276 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 15:32:49,656 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-12 15:32:49,658 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 15:32:49,663 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-12 15:32:49,795 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 15:32:49,996 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-12 15:32:50,296 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-12 15:32:52,089 INFO liquibase.logging.core.JavaLogger [main] Reading from public.databasechangelog
+2023-10-12 15:32:52,157 INFO liquibase.logging.core.JavaLogger [main] Reading from public.databasechangelog
+2023-10-12 15:32:52,166 INFO liquibase.logging.core.JavaLogger [main] UPDATE SUMMARY
+2023-10-12 15:32:52,166 INFO liquibase.logging.core.JavaLogger [main] Run:                          0
+2023-10-12 15:32:52,166 INFO liquibase.logging.core.JavaLogger [main] Previously run:               9
+2023-10-12 15:32:52,167 INFO liquibase.logging.core.JavaLogger [main] Filtered out:                 0
+2023-10-12 15:32:52,167 INFO liquibase.logging.core.JavaLogger [main] -------------------------------
+2023-10-12 15:32:52,167 INFO liquibase.logging.core.JavaLogger [main] Total change sets:            9
+
+2023-10-12 15:32:52,168 INFO liquibase.logging.core.JavaLogger [main] Update summary generated
+2023-10-12 15:32:52,194 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2023-10-12 15:32:52,196 INFO liquibase.logging.core.JavaLogger [main] Command execution complete
+2023-10-12 15:32:52,360 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 15:32:52,464 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-12 15:32:52,735 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-12 15:32:52,926 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-12 15:32:53,756 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 15:32:54,961 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-12 15:32:55,004 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 8.508 seconds (JVM running for 10.599)
+2023-10-12 15:32:58,660 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-12 15:32:58,679 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-12 15:33:06,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 12068 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 15:33:06,418 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 15:33:08,531 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-12 15:33:08,534 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 15:33:08,534 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-12 15:33:08,664 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 15:33:08,815 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-12 15:33:09,111 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-12 15:33:10,325 INFO liquibase.logging.core.JavaLogger [main] Reading from public.databasechangelog
+2023-10-12 15:33:10,386 INFO liquibase.logging.core.JavaLogger [main] Reading from public.databasechangelog
+2023-10-12 15:33:10,393 INFO liquibase.logging.core.JavaLogger [main] UPDATE SUMMARY
+2023-10-12 15:33:10,393 INFO liquibase.logging.core.JavaLogger [main] Run:                          0
+2023-10-12 15:33:10,394 INFO liquibase.logging.core.JavaLogger [main] Previously run:               9
+2023-10-12 15:33:10,394 INFO liquibase.logging.core.JavaLogger [main] Filtered out:                 0
+2023-10-12 15:33:10,394 INFO liquibase.logging.core.JavaLogger [main] -------------------------------
+2023-10-12 15:33:10,394 INFO liquibase.logging.core.JavaLogger [main] Total change sets:            9
+
+2023-10-12 15:33:10,395 INFO liquibase.logging.core.JavaLogger [main] Update summary generated
+2023-10-12 15:33:10,426 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2023-10-12 15:33:10,428 INFO liquibase.logging.core.JavaLogger [main] Command execution complete
+2023-10-12 15:33:10,666 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 15:33:10,803 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-12 15:33:11,216 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-12 15:33:11,377 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-12 15:33:12,202 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 15:33:13,269 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-12 15:33:13,303 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.689 seconds (JVM running for 8.775)
+2023-10-12 15:45:53,500 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-12 15:45:53,510 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-12 15:54:27,394 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 7340 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 15:54:27,398 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 15:54:27,398 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 15:54:34,645 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 8.341 seconds (JVM running for 10.486)
+2023-10-12 15:58:44,855 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 8632 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 15:58:44,858 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 15:58:44,859 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 15:58:51,738 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.569 seconds (JVM running for 8.627)
+2023-10-12 16:07:32,734 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 12340 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:07:32,738 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:07:32,738 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:10:50,617 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 16468 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:10:50,620 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:10:50,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:11:18,185 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 9160 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:11:18,189 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:11:18,190 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:21:54,986 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 22916 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:21:54,990 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:21:54,991 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:22:52,659 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 22644 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:22:52,663 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:22:52,664 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:23:25,980 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 3252 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:23:25,984 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:23:25,984 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:23:32,138 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 6.931 seconds (JVM running for 7.817)
+2023-10-12 16:30:48,425 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 15528 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:30:48,429 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:30:48,429 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:30:54,882 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.254 seconds (JVM running for 8.112)
+2023-10-12 16:31:28,944 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 25112 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 16:31:28,948 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 16:31:28,949 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 16:31:36,985 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 8.958 seconds (JVM running for 9.882)
+2023-10-12 17:12:05,380 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 1108 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:12:05,384 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:12:05,385 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:12:12,995 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 8.401 seconds (JVM running for 9.285)
+2023-10-12 17:12:53,605 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 25104 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:12:53,611 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:12:53,611 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:13:02,335 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 9.705 seconds (JVM running for 10.801)
+2023-10-12 17:15:23,680 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 21768 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:15:23,684 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:15:23,685 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:15:30,856 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.902 seconds (JVM running for 8.782)
+2023-10-12 17:16:27,882 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 7960 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:16:27,886 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:16:27,886 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:16:34,142 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.096 seconds (JVM running for 7.93)
+2023-10-12 17:17:21,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 16616 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:17:21,564 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:17:21,565 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:17:28,653 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.66 seconds (JVM running for 9.115)
+2023-10-12 17:51:52,966 INFO org.springframework.boot.StartupInfoLogger [main] Starting SomeProjectApplication using Java 17.0.7 on compbudaeva with PID 4824 (C:\jup\someprogect\build\classes\java\main started by a.budaeva in C:\jup\someprogect)
+2023-10-12 17:51:52,970 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.15, Spring v5.3.29
+2023-10-12 17:51:52,970 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 17:51:59,667 INFO org.springframework.boot.StartupInfoLogger [main] Started SomeProjectApplication in 7.791 seconds (JVM running for 8.656)

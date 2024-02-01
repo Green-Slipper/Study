@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   logicalFilePath="path-independent"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="a.budaeva" id="2023-10-12--01-add-some-card-user-theme.xml.001">
+        <insert schemaName="public"
+                tableName="user">
+            <column name="id" value="22"/>
+            <column name="name" value="Super-user"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="theme">
+            <column name="id" value="1"/>
+            <column name="name" value="Java"/>
+            <column name="author_id" value="22"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="theme">
+            <column name="id" value="26"/>
+            <column name="name" value="Python"/>
+            <column name="author_id" value="22"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="card">
+            <column name="id" value="100"/>
+            <column name="question" value="Что такое docker"/>
+            <column name="answer"
+                    value="Программа позволяющая после прописывания конфигурации 'развернуть' программу на другом устройстве с теми же настройками без необходимости глобальной дополнительной натсройки"/>
+            <column name="theme_id" value="1"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="card">
+            <column name="id" value="101"/>
+            <column name="question" value="расшифровка JVM"/>
+            <column name="answer" value="Java Virtual Machine - виртуальная машина java, 'мотор' для java программы"/>
+            <column name="theme_id" value="1"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="card">
+            <column name="id" value="102"/>
+            <column name="question" value="MVC"/>
+            <column name="answer"
+                    value="Model-View_controller - паттерн где отображение, изменение и хранение данных разнесены по разным местам"/>
+            <column name="theme_id" value="1"/>
+        </insert>
+        <insert schemaName="public"
+                tableName="card">
+            <column name="id" value="200"/>
+            <column name="question" value="Статически типизирован или нет?"/>
+            <column name="answer" value="Нет, но есть вариации где это частично есть"/>
+            <column name="theme_id" value="26"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="a.budaeva" id="2023-10-12--01-add-some-card-user-theme.xml.002">
+        <insert schemaName="public"
+                tableName="user">
+            <column name="id" value="266"/>
+            <column name="name" value="Some-user"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
